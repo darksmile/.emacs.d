@@ -67,5 +67,12 @@
 (setq sml/no-confirm-load-theme t)
 (sml/setup)
 
+;; Hide scrollbar
+(scroll-bar-mode -1)
+
+;; Code completion
+(require 'auto-complete)
+(ac-config-default)
+
 (provide 'common)
 ;;; common.el ends here

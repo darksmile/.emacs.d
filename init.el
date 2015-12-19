@@ -9,6 +9,7 @@
 (require 'server-start)
 (require 'common)
 (require 'theme)
+(require 'project)
 
 (provide 'init)
 ;;; init.el ends here
