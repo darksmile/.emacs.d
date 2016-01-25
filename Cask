@@ -15,3 +15,4 @@
 (depends-on "smart-mode-line")
 (depends-on "smart-mode-line-powerline-theme")
 (depends-on "xclip")
+(depends-on "yasnippet")

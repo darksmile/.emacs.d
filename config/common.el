@@ -14,6 +14,21 @@
 (require 'evil)
 (evil-mode t)
 
+(require 'cheatsheet)
+(cheat 'Common "C-x c" "Close Emacs.")
+(cheat 'Common "C-x 2" "Split window vertically.")
+(cheat 'Common "C-x 3" "Split window horisontally.")
+(cheat 'Common "C-w" "Move focus to the next window.")
+(cheat 'Common ":q" "Close current window.")
+(cheat 'Common ":w" "Save buffer.")
+
+(cheat 'Common "i" "Enter insert mode.")
+(cheat 'Common "Esq" "Leave insert mode.")
+
+(cheat 'Common "v" "Start or finish selecting region.")
+(cheat 'Common "p" "Paste saved to clipboard.")
+(cheat 'Common "y" "Copy to clipboard")
+
 ;; Hide splash screen
 (setq inhibit-startup-message t)
 
