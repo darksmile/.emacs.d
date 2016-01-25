@@ -4,7 +4,7 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 
-(add-to-list 'load-path "~/workspace/darksmile/dotfiles/.emacs.d/config")
+(add-to-list 'load-path "~/workspace/darksmile/.emacs.d/config")
 
 (require 'cheatsheet)
 (defun cheat (group key description)
